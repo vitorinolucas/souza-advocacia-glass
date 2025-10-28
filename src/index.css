@@ -8,24 +8,24 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 220 30% 8%;
-    --foreground: 0 0% 98%;
+    --background: 0 0% 98%;
+    --foreground: 220 30% 15%;
 
-    --card: 220 25% 12%;
-    --card-foreground: 0 0% 98%;
+    --card: 0 0% 100%;
+    --card-foreground: 220 30% 15%;
 
-    --popover: 220 28% 10%;
-    --popover-foreground: 0 0% 98%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 30% 15%;
 
     --primary: 195 85% 40%;
     --primary-foreground: 0 0% 100%;
     --primary-glow: 195 85% 55%;
 
-    --secondary: 220 20% 18%;
-    --secondary-foreground: 0 0% 98%;
+    --secondary: 220 15% 92%;
+    --secondary-foreground: 220 30% 15%;
 
-    --muted: 220 20% 15%;
-    --muted-foreground: 220 10% 60%;
+    --muted: 220 15% 95%;
+    --muted-foreground: 220 10% 45%;
 
     --accent: 195 75% 50%;
     --accent-foreground: 0 0% 100%;
@@ -33,19 +33,19 @@ All colors MUST be HSL.
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 220 20% 20%;
-    --input: 220 20% 18%;
+    --border: 220 15% 88%;
+    --input: 220 15% 92%;
     --ring: 195 85% 40%;
 
     --radius: 0.75rem;
 
     /* Glassmorphism effects */
-    --glass-bg: 220 25% 15% / 0.4;
-    --glass-border: 0 0% 100% / 0.1;
-    --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    --glass-bg: 255 255 255 / 0.6;
+    --glass-border: 220 15% 80% / 0.3;
+    --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.1);
 
     /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(195 85% 40%), hsl(220 30% 8%));
+    --gradient-primary: linear-gradient(135deg, hsl(195 85% 40%), hsl(195 85% 60%));
     --gradient-accent: linear-gradient(90deg, hsl(195 85% 40%), hsl(195 85% 55%));
   }
 }
@@ -62,18 +62,18 @@ All colors MUST be HSL.
 
   /* Glassmorphism utility */
   .glass {
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(255, 255, 255, 0.7);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.08);
   }
 
   .glass-strong {
-    background: rgba(255, 255, 255, 0.08);
+    background: rgba(255, 255, 255, 0.85);
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
-    border: 1px solid rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.6);
   }
 }
 
