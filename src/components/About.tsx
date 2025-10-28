@@ -1,4 +1,5 @@
-import { CheckCircle, User } from "lucide-react";
+import { CheckCircle } from "lucide-react";
+import fabricioPhoto from "@/assets/fabricio.png";
 
 const About = () => {
   return (
@@ -8,15 +9,12 @@ const About = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             {/* Image Side */}
             <div className="relative animate-slide-up">
-              <div className="glass-strong rounded-2xl p-8 aspect-square flex items-center justify-center">
-                <User className="w-48 h-48 text-primary/30" />
-                {/* Placeholder for professional photo */}
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="text-center text-muted-foreground">
-                    <p className="text-sm">[Foto Profissional]</p>
-                    <p className="text-xs mt-2">Fabricio Sousa</p>
-                  </div>
-                </div>
+              <div className="glass-strong rounded-2xl p-2 overflow-hidden">
+                <img 
+                  src={fabricioPhoto} 
+                  alt="Fabricio Sousa - Advogado Trabalhista" 
+                  className="w-full h-full object-cover rounded-xl"
+                />
               </div>
               {/* Decorative element */}
               <div className="absolute -z-10 -bottom-6 -right-6 w-64 h-64 bg-primary/10 rounded-full blur-3xl"></div>
