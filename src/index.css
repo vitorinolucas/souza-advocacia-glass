@@ -9,44 +9,44 @@ All colors MUST be HSL.
 @layer base {
   :root {
     --background: 0 0% 98%;
-    --foreground: 220 30% 15%;
+    --foreground: 30 25% 20%;
 
     --card: 0 0% 100%;
-    --card-foreground: 220 30% 15%;
+    --card-foreground: 30 25% 20%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 220 30% 15%;
+    --popover-foreground: 30 25% 20%;
 
-    --primary: 195 85% 40%;
-    --primary-foreground: 0 0% 100%;
-    --primary-glow: 195 85% 55%;
+    --primary: 43 95% 58%;
+    --primary-foreground: 30 25% 15%;
+    --primary-glow: 45 100% 70%;
 
-    --secondary: 220 15% 92%;
-    --secondary-foreground: 220 30% 15%;
+    --secondary: 40 30% 92%;
+    --secondary-foreground: 30 25% 20%;
 
-    --muted: 220 15% 95%;
-    --muted-foreground: 220 10% 45%;
+    --muted: 40 20% 95%;
+    --muted-foreground: 30 15% 45%;
 
-    --accent: 195 75% 50%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 38 92% 50%;
+    --accent-foreground: 30 25% 15%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 220 15% 88%;
-    --input: 220 15% 92%;
-    --ring: 195 85% 40%;
+    --border: 40 20% 88%;
+    --input: 40 25% 92%;
+    --ring: 43 95% 58%;
 
     --radius: 0.75rem;
 
     /* Glassmorphism effects */
     --glass-bg: 255 255 255 / 0.6;
-    --glass-border: 220 15% 80% / 0.3;
-    --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.1);
+    --glass-border: 45 60% 80% / 0.3;
+    --glass-shadow: 0 8px 32px 0 rgba(218, 165, 32, 0.15);
 
     /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(195 85% 40%), hsl(195 85% 60%));
-    --gradient-accent: linear-gradient(90deg, hsl(195 85% 40%), hsl(195 85% 55%));
+    --gradient-primary: linear-gradient(135deg, hsl(43 95% 58%), hsl(45 100% 70%));
+    --gradient-accent: linear-gradient(90deg, hsl(38 92% 50%), hsl(43 95% 58%));
   }
 }
 
