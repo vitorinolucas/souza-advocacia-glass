@@ -21,17 +21,17 @@ const Hero = () => {
       </div>
 
       {/* Content */}
-      <div className="container relative z-10 px-4 py-20 mx-auto animate-fade-in">
+      <div className="container relative z-10 px-4 py-12 md:py-16 lg:py-20 mx-auto animate-fade-in">
         <div className="max-w-4xl mx-auto text-center">
           {/* Icon */}
-          <div className="mb-8 flex justify-center">
-            <div className="glass-strong p-4 rounded-full inline-block">
-              <Scale className="w-12 h-12 text-primary" />
+          <div className="mb-6 md:mb-8 flex justify-center">
+            <div className="glass-clean p-3 md:p-4 rounded-full inline-block">
+              <Scale className="w-10 h-10 md:w-12 md:h-12 text-primary" />
             </div>
           </div>
 
           {/* Main Heading */}
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
+          <h1 className="text-3xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-4 md:mb-6 leading-tight">
             Defendendo seus direitos trabalhistas com{" "}
             <span className="text-primary">ética</span>,{" "}
             <span className="text-primary">estratégia</span> e{" "}
@@ -39,7 +39,7 @@ const Hero = () => {
           </h1>
 
           {/* Subtitle */}
-          <p className="text-lg md:text-xl text-muted-foreground mb-10 max-w-2xl mx-auto">
+          <p className="text-base md:text-lg lg:text-xl text-muted-foreground mb-6 md:mb-8 lg:mb-10 max-w-2xl mx-auto">
             Sou o advogado <strong className="text-foreground">Fabricio Sousa</strong>, 
             especialista em causas trabalhistas — do início ao fim do processo, 
             você conta com suporte jurídico personalizado.
@@ -50,25 +50,25 @@ const Hero = () => {
             variant="hero" 
             size="lg" 
             onClick={scrollToContact}
-            className="text-lg px-8 py-6"
+            className="text-base md:text-lg px-6 py-4 md:px-8 md:py-6"
           >
             Fale com o Advogado
-            <ArrowDown className="ml-2 h-5 w-5" />
+            <ArrowDown className="ml-2 h-4 w-4 md:h-5 md:w-5" />
           </Button>
 
           {/* Trust Indicators */}
-          <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="glass p-6 rounded-lg">
-              <div className="text-3xl font-bold text-primary mb-2">100+</div>
-              <div className="text-sm text-muted-foreground">Casos Resolvidos</div>
+          <div className="mt-8 md:mt-12 lg:mt-16 grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-4 lg:gap-6">
+            <div className="glass-clean p-4 md:p-5 lg:p-6 rounded-lg">
+              <div className="text-2xl md:text-3xl font-bold text-primary mb-1 md:mb-2">100+</div>
+              <div className="text-xs md:text-sm text-muted-foreground">Casos Resolvidos</div>
             </div>
-            <div className="glass p-6 rounded-lg">
-              <div className="text-3xl font-bold text-primary mb-2">15+</div>
-              <div className="text-sm text-muted-foreground">Anos de Experiência</div>
+            <div className="glass-clean p-4 md:p-5 lg:p-6 rounded-lg">
+              <div className="text-2xl md:text-3xl font-bold text-primary mb-1 md:mb-2">15+</div>
+              <div className="text-xs md:text-sm text-muted-foreground">Anos de Experiência</div>
             </div>
-            <div className="glass p-6 rounded-lg">
-              <div className="text-3xl font-bold text-primary mb-2">98%</div>
-              <div className="text-sm text-muted-foreground">Taxa de Sucesso</div>
+            <div className="glass-clean p-4 md:p-5 lg:p-6 rounded-lg">
+              <div className="text-2xl md:text-3xl font-bold text-primary mb-1 md:mb-2">98%</div>
+              <div className="text-xs md:text-sm text-muted-foreground">Taxa de Sucesso</div>
             </div>
           </div>
         </div>

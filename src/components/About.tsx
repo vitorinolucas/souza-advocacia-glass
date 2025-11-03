@@ -9,7 +9,7 @@ const About = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             {/* Image Side */}
             <div className="relative animate-slide-up">
-              <div className="glass-strong rounded-2xl p-2 overflow-hidden">
+              <div className="glass-card rounded-2xl p-2 overflow-hidden">
                 <img 
                   src={fabricioPhoto} 
                   alt="Fabricio Sousa - Advogado Trabalhista" 

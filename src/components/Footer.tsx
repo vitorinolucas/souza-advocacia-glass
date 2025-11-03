@@ -14,7 +14,7 @@ const Footer = () => {
             {/* Brand */}
             <div className="space-y-4">
               <div className="flex items-center gap-3">
-                <div className="glass p-2 rounded-lg">
+                <div className="glass-clean p-2 rounded-lg">
                   <Scale className="w-6 h-6 text-primary" />
                 </div>
                 <div>
@@ -62,14 +62,14 @@ const Footer = () => {
                   href="https://linkedin.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="glass w-10 h-10 rounded-lg flex items-center justify-center hover:bg-white/10 transition-colors"
+                  className="glass-clean w-10 h-10 rounded-lg flex items-center justify-center hover:bg-white/10 transition-colors"
                   aria-label="LinkedIn"
                 >
                   <Linkedin className="w-5 h-5 text-primary" />
                 </a>
                 <a
                   href="mailto:contato@fabriciosousa.adv.br"
-                  className="glass w-10 h-10 rounded-lg flex items-center justify-center hover:bg-white/10 transition-colors"
+                  className="glass-clean w-10 h-10 rounded-lg flex items-center justify-center hover:bg-white/10 transition-colors"
                   aria-label="Email"
                 >
                   <Mail className="w-5 h-5 text-primary" />
@@ -78,7 +78,7 @@ const Footer = () => {
                   href="https://wa.me/5511999999999"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="glass w-10 h-10 rounded-lg flex items-center justify-center hover:bg-white/10 transition-colors"
+                  className="glass-clean w-10 h-10 rounded-lg flex items-center justify-center hover:bg-white/10 transition-colors"
                   aria-label="WhatsApp"
                 >
                   <MessageCircle className="w-5 h-5 text-primary" />
